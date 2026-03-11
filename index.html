@@ -1,24 +1,32 @@
 <!doctype html>
-<html lang="en">
+<html lang="sr">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <title>Belle Éclat | Premium kozmetički salon u Beogradu</title>
+    <meta name="description" content="Belle Éclat - luksuzni kozmetički salon u Beogradu. Tretmani lica, tela, nadogradnja trepavica, manikir, pedikir i profesionalna šminka. Zakažite termin." />
+    <meta property="og:title" content="Belle Éclat | Premium kozmetički salon" />
+    <meta property="og:description" content="Profesionalni beauty tretmani u luksuznom ambijentu. Zakažite svoj termin danas." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:locale" content="sr_RS" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BeautySalon",
+        "name": "Belle Éclat",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Knez Mihailova 25",
+          "addressLocality": "Beograd",
+          "addressCountry": "RS"
+        },
+        "telephone": "+381111234567",
+        "email": "info@belleeclat.rs",
+        "openingHours": ["Mo-Fr 09:00-20:00", "Sa 09:00-16:00"]
+      }
+    </script>
   </head>
-
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
