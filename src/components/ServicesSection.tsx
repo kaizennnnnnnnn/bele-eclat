@@ -1,7 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import treatmentFace from "@/assets/treatment-face.jpg";
-import treatmentNails from "@/assets/treatment-nails.jpg";
+import treatmentNails from "@/assets/treatment-nails.png";
 import treatmentLashes from "@/assets/treatment-lashes.jpg";
 import treatmentBody from "@/assets/treatment-body.jpg";
 import { Sparkles, Flower2, Eye, Hand, Scissors, Palette } from "lucide-react";
